@@ -1,0 +1,51 @@
+body{
+    background-color: burlywood;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-top:  100px;
+    margin-bottom: 100px;
+    font-family:fantasy;
+}
+
+#task-list {
+    margin-bottom: 20px;
+}
+
+.task {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.task h2 {
+    margin-top: 0;
+}
+
+.task p {
+    margin: 0;
+}
+
+#add-task {
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+}
+
+#add-task input[type="text"], #add-task input[type="date"], #add-task select {
+    margin-right: 10px;
+}
+
+#add-btn {
+    background-color: #04446f;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
